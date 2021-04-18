@@ -1,1 +1,40 @@
+.start_page{
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	
+	background-color: AliceBlue;
+}
+.links{
+	border: 1px outset black;
+    padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+    
+    background-color: lightblue;
+	background-color: AliceBlue;
+}
+.body_page{
+	
+	background-color: AliceBlue;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+	background-color: DodgerBlue;
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+	flex-direction: row;
+	align-items: flex-start;
+    background-color: lightblue;
+  }
+}
 
